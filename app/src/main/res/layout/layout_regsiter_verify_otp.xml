@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    >
+
+    <LinearLayout
+        android:layout_weight="1.8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_phone_verification"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:layout_marginTop="40dp"
+            android:gravity="center_vertical|bottom"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sansation_bold"
+                android:text="Verify"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:textAllCaps="false" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please stay relexed we auto verifying your phone"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sansation_regular"
+                android:textSize="@dimen/register_top2_text2"
+                app:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+
+        <!--        <View-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="1dp"-->
+        <!--            android:layout_gravity="bottom"-->
+        <!--            android:layout_marginRight="20dp"-->
+        <!--            android:layout_marginLeft="60dp"-->
+        <!--            android:background="@color/underline_color"/>-->
+
+
+        <LinearLayout
+            android:id="@+id/ll_registration_mobile_otp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:gravity="center|bottom"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <com.pupportweb.gobobakapartner.widgit.OTPEditText
+                android:id="@+id/etxt_registration_mobile_one"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="0"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textColorHint="@color/text_hint"
+                android:textCursorDrawable="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/etxt_registration_mobile_two"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:hint="0"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textColorHint="@color/text_hint"
+                android:textCursorDrawable="@color/colorPrimaryDark" />
+
+            <com.pupportweb.gobobakapartner.widgit.OTPEditText
+                android:id="@+id/etxt_registration_mobile_three"
+                android:layout_width="34dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:hint="0"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textColorHint="@color/text_hint"
+                android:textCursorDrawable="@color/colorPrimaryDark" />
+
+            <com.pupportweb.gobobakapartner.widgit.OTPEditText
+                android:id="@+id/etxt_registration_mobile_four"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:hint="0"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textColorHint="@color/text_hint"
+                android:textCursorDrawable="@color/colorPrimaryDark" />
+
+            <com.pupportweb.gobobakapartner.widgit.OTPEditText
+                android:id="@+id/etxt_registration_mobile_five"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:hint="0"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textColorHint="@color/text_hint"
+                android:textCursorDrawable="@color/colorPrimaryDark" />
+
+            <com.pupportweb.gobobakapartner.widgit.OTPEditText
+                android:id="@+id/etxt_registration_mobile_six"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:hint="0"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/black"
+                android:textColorHint="@color/text_hint"
+                android:textCursorDrawable="@color/colorPrimaryDark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_auto_verify_otp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="Auto verifing your OTP"
+                android:textColor="@color/black"
+                android:textSize="@dimen/auto_verify_text_size"
+                app:textAllCaps="false" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:visibility="visible">
+
+        <!--            <ImageView-->
+        <!--                android:id="@+id/etxt_registration_img1"-->
+        <!--                android:layout_width="150dp"-->
+        <!--                android:layout_height="80dp"-->
+        <!--                android:layout_gravity="right"-->
+        <!--                android:src="@drawable/aryago_bike"/>-->
+        <Button
+            android:id="@+id/registerotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sansation_bold"
+            android:padding="20dp"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="@color/black"
+            app:fabSize="normal"
+           />
+    </LinearLayout>
+</LinearLayout>

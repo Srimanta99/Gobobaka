@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar"
+        android:orientation="vertical"
+        android:weightSum="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/bg_login"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/space_10"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sansation_bold"
+                android:gravity="center|left"
+                android:text="Join With Us "
+                android:textColor="@color/black"
+                android:textSize="@dimen/space_20" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sansation_bold"
+                android:gravity="center|left"
+                android:text="Please provide your mobile no"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:orientation="vertical">
+
+<!--            <gobobakapartner.LatoBLack-->
+<!--                android:id="@+id/tv_register_name"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="@dimen/space_10"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@string/tv_login_email"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="14sp" />-->
+<!--            <EditText-->
+<!--                android:id="@+id/et_register_name"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:hint="Enter Your Good Name"-->
+<!--                android:inputType="text"-->
+<!--                android:maxLines="1"-->
+<!--                android:padding="10dp"-->
+<!--                android:singleLine="true"-->
+<!--                android:textColor="@color/black"-->
+<!--                />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/et_register_email"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:hint="Enter Your Email"-->
+<!--                android:inputType="textEmailAddress"-->
+<!--                android:maxLines="1"-->
+<!--                android:padding="10dp"-->
+<!--                android:singleLine="true"-->
+<!--                android:textColor="@color/black" />-->
+            <EditText
+                android:id="@+id/et_register_mob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:maxLength="10"
+                android:gravity="center_horizontal"
+                android:hint="Enter Your Mobile No"
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:padding="@dimen/space_10"
+            android:orientation="vertical">
+
+              <Button
+                  android:id="@+id/send_otp"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:text="Next"
+                  android:background="@color/green_logo"
+                  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+
+            <com.pupportweb.gobobakapartner.Fonts.LatoBLack
+                android:id="@+id/btnredirectlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Already Registered?"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

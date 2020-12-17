@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "660788332678",
+    "firebase_url": "https://gobobaka-a9a7c.firebaseio.com",
+    "project_id": "gobobaka-a9a7c",
+    "storage_bucket": "gobobaka-a9a7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660788332678:android:f3a9bdd2760dbd830ee907",
+        "android_client_info": {
+          "package_name": "com.puportweb.gobobaka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660788332678-b7ju40eidfcm8fmmishv0eqqsov50duv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyyLUlQlxGbe605SI7AbeR3XIDr9_TO-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660788332678-b7ju40eidfcm8fmmishv0eqqsov50duv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660788332678:android:25aa7a1411aa11570ee907",
+        "android_client_info": {
+          "package_name": "com.puportweb.gobobakajob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660788332678-b7ju40eidfcm8fmmishv0eqqsov50duv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyyLUlQlxGbe605SI7AbeR3XIDr9_TO-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660788332678-b7ju40eidfcm8fmmishv0eqqsov50duv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660788332678:android:5419dfe970ab1c950ee907",
+        "android_client_info": {
+          "package_name": "com.pupportweb.gobobakapartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660788332678-rdophgmpe40vuug3kabsqhk084diq5nj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pupportweb.gobobakapartner",
+            "certificate_hash": "5fa6aa35d6a050056e175b6d15f57a2cdbc0ff6c"
+          }
+        },
+        {
+          "client_id": "660788332678-b7ju40eidfcm8fmmishv0eqqsov50duv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyyLUlQlxGbe605SI7AbeR3XIDr9_TO-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660788332678-b7ju40eidfcm8fmmishv0eqqsov50duv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

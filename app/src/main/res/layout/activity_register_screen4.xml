@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar"
+        android:orientation="vertical"
+        android:weightSum="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/bg_login"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/space_10"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sansation_bold"
+                android:gravity="center|left"
+                android:text="Join With Us "
+                android:textColor="@color/black"
+                android:textSize="@dimen/space_20" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sansation_bold"
+                android:gravity="center|left"
+                android:text="Please upload documents to verify"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:weightSum="3"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                ></View>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    >
+<ImageView
+    android:id="@+id/img_register_aadhar"
+    android:layout_width="100dp"
+    android:layout_height="80dp"
+    android:src="@drawable/aadhar"
+    >
+</ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:padding="@dimen/space_10"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/text_img_addhar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aadhar/Pan/Etc"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+</LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+<Button
+    android:id="@+id/btn_aadhar_upload"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Upload"
+    android:textColor="@color/white"
+    android:background="@color/black"
+    >
+
+</Button>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                ></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:id="@+id/img_register_gst"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/gst"
+                        >
+                    </ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:padding="@dimen/space_10"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:id="@+id/txt_img_gst"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="GST/Trade Licence"
+                            android:textColor="@color/black"
+                            >
+
+                        </TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+                        <Button
+                            android:id="@+id/btn_gst"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Upload"
+                            android:textColor="@color/white"
+                            android:background="@color/black"
+                            >
+
+                        </Button>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                ></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:id="@+id/img_register_bank"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/passbook"
+                        >
+                    </ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:padding="@dimen/space_10"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:id="@+id/txt_img_bank"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Statement/Passbook/Checque"
+                            android:textColor="@color/black"
+                            >
+
+                        </TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+                        <Button
+                            android:id="@+id/btn_bank_detail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Upload"
+                            android:textColor="@color/white"
+                            android:background="@color/black"
+                            >
+
+                        </Button>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                ></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:padding="@dimen/space_10"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/send_register_req"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Next"
+                android:background="@color/green_logo"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+
+            <com.pupportweb.gobobakapartner.Fonts.LatoBLack
+                android:id="@+id/btnredirectlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="Already Registered?"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

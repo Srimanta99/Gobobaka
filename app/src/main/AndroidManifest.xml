@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pupportweb.gobobakapartner">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:name="com.pupportweb.gobobakapartner.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.pupportweb.gobobakapartner.Dashboard.AddProductActivity"></activity>
+        <activity android:name="com.pupportweb.gobobakapartner.ViewEarningDetailsActivity" />
+        <activity android:name="com.pupportweb.gobobakapartner.Register_screen4" />
+        <activity android:name="com.pupportweb.gobobakapartner.Register_screen3" />
+        <activity android:name="com.pupportweb.gobobakapartner.Register_screen2" />
+        <activity android:name="com.pupportweb.gobobakapartner.Welcome_Activity" />
+        <activity android:name="com.pupportweb.gobobakapartner.RegisterActivity" />
+        <activity android:name="com.pupportweb.gobobakapartner.Dashboard.StockShow" />
+        <activity android:name="com.pupportweb.gobobakapartner.Dashboard.Select_Products" />
+        <activity android:name="com.pupportweb.gobobakapartner.Dashboard.OrderDetails_today" />
+        <activity
+            android:name="com.pupportweb.gobobakapartner.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pupportweb.gobobakapartner.Dashboard.AllProducts">
+
+            <!-- <meta-registrationData -->
+            <!-- android:name="android.app.searchable" -->
+            <!-- android:resource="@xml/searchable" /> -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pupportweb.gobobakapartner.Dashboard.AppUserActivity">
+
+            <!-- <meta-registrationData -->
+            <!-- android:name="android.app.searchable" -->
+            <!-- android:resource="@xml/searchable" /> -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pupportweb.gobobakapartner.Dashboard.ForgotActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.pupportweb.gobobakapartner.Register_Verify_Otp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.pupportweb.gobobakapartner.Dashboard.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.pupportweb.gobobakapartner.MainActivity" />
+        <activity android:name="com.pupportweb.gobobakapartner.Dashboard.StockList" />
+        <activity
+            android:name="com.pupportweb.gobobakapartner.Dashboard.EditProfile"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.pupportweb.gobobakapartner.Dashboard.StockUpdate"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.pupportweb.gobobakapartner.Dashboard.MyOrderDeatil" />
+        <activity android:name="com.pupportweb.gobobakapartner.Dashboard.OrdersActivity">
+
+            <!-- <meta-registrationData -->
+            <!-- android:name="android.app.searchable" -->
+            <!-- android:resource="@xml/searchable" /> -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pupportweb.gobobakapartner.Dashboard.AssignSuccess" />
+
+        <service android:name="com.pupportweb.gobobakapartner.Dashboard.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
